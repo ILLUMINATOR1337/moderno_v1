@@ -52,8 +52,8 @@ function scripts() {
 
 function styles() {
    return src([
-        'node_modules/slick-carousel/slick/slick.js',
-        'node_modules/normalize.css/normolize.css',
+        'node_modules/slick-carousel/slick/slick.css',
+        'node_modules/normalize.css/normalize.css',
         'app/scss/style.scss'
       ])
       .pipe(scss({outputStyle: 'compressed'}))
